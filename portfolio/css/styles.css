@@ -89,16 +89,20 @@ section h2 {
 }
 
 footer p{
-    position: relative;
+    /* position: relative; */
     background-color:blueviolet;;
     border-radius: 0.4rem;
     padding: 0.4rem;
+    position:sticky;
+    bottom:0;
+    left:0;
+    right:0;
 }
-
+/* 
 footer p {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     top:0;
-}
+} */
